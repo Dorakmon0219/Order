@@ -34,6 +34,11 @@
 				<artifactId>bootstrap</artifactId>
 				<version>3.3.6</version>
 			</dependency>
+			<dependency>
+				<groupId>top.bestzt.mtfl4ms</groupId>
+				<artifactId>metrace-plugin</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 

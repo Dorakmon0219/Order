@@ -11,6 +11,10 @@
 	<artifactId>microservice-demo-catalog</artifactId>
 
 	<dependencies>
+		<dependency>
+			<groupId>top.bestzt.mtfl4ms</groupId>
+			<artifactId>metrace-plugin</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

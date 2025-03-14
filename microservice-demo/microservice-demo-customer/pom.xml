@@ -86,6 +86,10 @@
 			<artifactId>bootstrap</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>top.bestzt.mtfl4ms</groupId>
+			<artifactId>metrace-plugin</artifactId>
+		</dependency>
 	</dependencies>
 
 </project>

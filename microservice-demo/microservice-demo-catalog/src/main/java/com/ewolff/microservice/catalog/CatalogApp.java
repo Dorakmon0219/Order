@@ -8,11 +8,13 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
+import top.bestzt.mtfl4ms.metrace.annotation.EnableMetracePlugin;
 
 @ComponentScan
 @EnableAutoConfiguration
 @EnableDiscoveryClient
 @Component
+@EnableMetracePlugin
 public class CatalogApp {
 
 	private final ItemRepository itemRepository;
